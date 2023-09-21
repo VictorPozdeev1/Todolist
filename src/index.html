@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer type="module" src="./js/index.js"></script>
+</head>
+
+<body>
+    <div id="main-container">
+        <h1>Очень важные дела</h1>
+        <div id="newItem_outerContainer">
+            <button id="newItem_toggleModeButton" class="button button-primary font-bigger">Добавить...</button>
+            <div id="newItem_innerContainer">
+                <input type="text" id="newItem_textInput" class="input font-bigger">
+                <button id="newItem_okButton" class="button button-primary font-bigger">Ок</button>
+            </div>
+        </div>
+        <ul type="none" id="itemList_container">
+        </ul>
+        <div id="strangeButtons_container">
+            <button id="someButtons_deleteFirstButton" class="button button-primary">Удалить первый</button>
+            <button id="someButtons_deleteLastButton" class="button button-primary">Удалить последний</button>
+            <button id="someButtons_stylizeOddsButton" class="button button-primary">Выделить нечётные</button>
+            <button id="someButtons_stylizeEvensButton" class="button button-primary">Выделить чётные</button>
+        </div>
+    </div>
+</body>
+
+</html>
